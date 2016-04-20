@@ -32,6 +32,15 @@ class ViewController: UIViewController {
         for i in ReverseSequence(array: arr) {
             print("Index \(i) is \(arr[i])")
         }
+        
+        
+        diffFormAnyAndAnyObject()
+        
+        
+        var a = AClass()
+        
+        lazyPerson().printName2()
+
     }
 
     override func didReceiveMemoryWarning() {

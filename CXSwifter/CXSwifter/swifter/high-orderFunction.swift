@@ -206,7 +206,7 @@ func plusAndMutiple() {
 }
 
 func fixArray() {
-    let _ = [1, 3, 4].filter({ $0 % 2 == 0 }).map({ $0 * $0 }).reduce(0){
-        return $0 + $1
-    }
+//    let _ = [1, 3, 4].filter({ $0 % 2 == 0 }).map({ $0 * $0 }).reduce(0){
+//        return $0 + $1
+//    }
 }

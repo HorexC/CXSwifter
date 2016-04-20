@@ -1,0 +1,10 @@
+framework module swiftframework {
+  umbrella header "swiftframework.h"
+
+  export *
+  module * { export * }
+}
+
+module swiftframework.Swift {
+    header "swiftframework-Swift.h"
+}
