@@ -7,11 +7,17 @@
 //
 
 #import "WebAPIOC.h"
+#import <UIKit/UIKit.h>
 
 @implementation WebAPIOC
 
 + (void)requestBuddyList:(void (^)(NSArray<NSObject *> *buddys, NSError *error))synBlock {
 
+    UIView *view = ({
+        UIView *v = [UIView new];
+        v;
+    });
+    
 }
 
 + (void)requestGroupList:(void (^)(NSArray<NSObject *> *buddys, NSError *error))synBlock {
