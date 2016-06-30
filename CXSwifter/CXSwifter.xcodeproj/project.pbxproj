@@ -32,11 +32,18 @@
 		842AA3B01C76F99B00B3054D /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AA3AF1C76F99B00B3054D /* Selector.swift */; };
 		842AA3B21C76FA8F00B3054D /* SelectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AA3B11C76FA8F00B3054D /* SelectorTest.swift */; };
 		842AA3B41C76FFCD00B3054D /* protocolMutating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AA3B31C76FFCD00B3054D /* protocolMutating.swift */; };
+		843C22601D0FA4EA00ED0BF1 /* delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C225F1D0FA4EA00ED0BF1 /* delegate.swift */; };
+		843C22621D0FC96C00ED0BF1 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C22611D0FC96C00ED0BF1 /* Lock.swift */; };
+		843CEDE01D251A5E009D568B /* 安全的资源组织方式.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CEDDF1D251A5E009D568B /* 安全的资源组织方式.swift */; };
+		843CEDE21D251D17009D568B /* Toll-Free Bridging 和 Unmanaged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CEDE11D251D17009D568B /* Toll-Free Bridging 和 Unmanaged.swift */; };
 		8464B6B81C7BFFB400B1B11E /* sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464B6B71C7BFFB400B1B11E /* sequence.swift */; };
 		8464B6BA1C7C034A00B1B11E /* SequenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464B6B91C7C034A00B1B11E /* SequenceTest.swift */; };
 		8464B6BC1C7C086B00B1B11E /* tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464B6BB1C7C086B00B1B11E /* tuple.swift */; };
 		8464B6BE1C7C0AE000B1B11E /* tupleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464B6BD1C7C0AE000B1B11E /* tupleTest.swift */; };
 		8469CA3A1C7FEF3B004BDB2E /* protocolsAsTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469CA391C7FEF3B004BDB2E /* protocolsAsTypes.swift */; };
+		847575311CED5FF9005869B5 /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847575301CED5FF9005869B5 /* AssociatedObject.swift */; };
+		847575331CED62BD005869B5 /* indirectAndenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847575321CED62BD005869B5 /* indirectAndenum.swift */; };
+		847575351CED6791005869B5 /* protocalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847575341CED6791005869B5 /* protocalExtension.swift */; };
 		8476822A1C7EEC800058B0B1 /* swiftframework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847682291C7EEC800058B0B1 /* swiftframework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8476822C1C7EEE3E0058B0B1 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476822B1C7EEE3E0058B0B1 /* Singleton.swift */; };
 		8476822E1C7EF13B0058B0B1 /* AnyAndAnyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8476822D1C7EF13B0058B0B1 /* AnyAndAnyObject.swift */; };
@@ -218,11 +225,18 @@
 		842AA3AF1C76F99B00B3054D /* Selector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selector.swift; sourceTree = "<group>"; };
 		842AA3B11C76FA8F00B3054D /* SelectorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorTest.swift; sourceTree = "<group>"; };
 		842AA3B31C76FFCD00B3054D /* protocolMutating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolMutating.swift; sourceTree = "<group>"; };
+		843C225F1D0FA4EA00ED0BF1 /* delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delegate.swift; sourceTree = "<group>"; };
+		843C22611D0FC96C00ED0BF1 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		843CEDDF1D251A5E009D568B /* 安全的资源组织方式.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "安全的资源组织方式.swift"; sourceTree = "<group>"; };
+		843CEDE11D251D17009D568B /* Toll-Free Bridging 和 Unmanaged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Toll-Free Bridging 和 Unmanaged.swift"; sourceTree = "<group>"; };
 		8464B6B71C7BFFB400B1B11E /* sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sequence.swift; sourceTree = "<group>"; };
 		8464B6B91C7C034A00B1B11E /* SequenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTest.swift; sourceTree = "<group>"; };
 		8464B6BB1C7C086B00B1B11E /* tuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tuple.swift; sourceTree = "<group>"; };
 		8464B6BD1C7C0AE000B1B11E /* tupleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tupleTest.swift; sourceTree = "<group>"; };
 		8469CA391C7FEF3B004BDB2E /* protocolsAsTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolsAsTypes.swift; sourceTree = "<group>"; };
+		847575301CED5FF9005869B5 /* AssociatedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObject.swift; sourceTree = "<group>"; };
+		847575321CED62BD005869B5 /* indirectAndenum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = indirectAndenum.swift; sourceTree = "<group>"; };
+		847575341CED6791005869B5 /* protocalExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocalExtension.swift; sourceTree = "<group>"; };
 		847682291C7EEC800058B0B1 /* swiftframework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = swiftframework.framework; sourceTree = "<group>"; };
 		8476822B1C7EEE3E0058B0B1 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		8476822D1C7EF13B0058B0B1 /* AnyAndAnyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyAndAnyObject.swift; sourceTree = "<group>"; };
@@ -540,6 +554,13 @@
 				848592831CCA0E3500C47072 /* Generic<T>.swift */,
 				848592851CCA169500C47072 /* enumTest.swift */,
 				848592871CCA16BA00C47072 /* recursion.swift */,
+				847575301CED5FF9005869B5 /* AssociatedObject.swift */,
+				847575321CED62BD005869B5 /* indirectAndenum.swift */,
+				847575341CED6791005869B5 /* protocalExtension.swift */,
+				843C225F1D0FA4EA00ED0BF1 /* delegate.swift */,
+				843C22611D0FC96C00ED0BF1 /* Lock.swift */,
+				843CEDDF1D251A5E009D568B /* 安全的资源组织方式.swift */,
+				843CEDE11D251D17009D568B /* Toll-Free Bridging 和 Unmanaged.swift */,
 			);
 			path = swifter;
 			sourceTree = "<group>";
@@ -880,6 +901,7 @@
 				8485926B1CC8CFBC00C47072 /* encode.swift in Sources */,
 				84E193511C85342F00ED4004 /* swiftStyle.swift in Sources */,
 				84E1934D1C842DD000ED4004 /* WebAPIOC.m in Sources */,
+				843CEDE21D251D17009D568B /* Toll-Free Bridging 和 Unmanaged.swift in Sources */,
 				848592881CCA16BA00C47072 /* recursion.swift in Sources */,
 				848592801CC9C23000C47072 /* CoreData.swift in Sources */,
 				84F7930D1C7EE24C00C7D5BD /* NameSpace.swift in Sources */,
@@ -897,9 +919,11 @@
 				848592671CC8CB3900C47072 /* Options.swift in Sources */,
 				8485927C1CC9BF0000C47072 /* Defined.swift in Sources */,
 				84AAC82A1CC629AC0026FAD6 /* ValueAndClass.swift in Sources */,
+				843C22601D0FA4EA00ED0BF1 /* delegate.swift in Sources */,
 				84DD5C901CC72142008F2B37 /* ...and..<.swift in Sources */,
 				842AA3B01C76F99B00B3054D /* Selector.swift in Sources */,
 				848591101CC880F100C47072 /* Swizzle.swift in Sources */,
+				843C22621D0FC96C00ED0BF1 /* Lock.swift in Sources */,
 				848592861CCA169500C47072 /* enumTest.swift in Sources */,
 				848592611CC8C48300C47072 /* JustForMD5.swift in Sources */,
 				84E1934A1C842D4700ED4004 /* SyncOC.m in Sources */,
@@ -912,13 +936,17 @@
 				84A9F1011C7C581E00030008 /* subscript.swift in Sources */,
 				848592721CC8D5A000C47072 /* SwiftForTestC.swift in Sources */,
 				840F49561C8EA695002B9421 /* initOrder.swift in Sources */,
+				847575351CED6791005869B5 /* protocalExtension.swift in Sources */,
 				840F49581C8EB219002B9421 /* protocolCounple.swift in Sources */,
+				847575331CED62BD005869B5 /* indirectAndenum.swift in Sources */,
 				840F49481C8E7C4A002B9421 /* define.swift in Sources */,
 				84A9F0FF1C7C4F8500030008 /* convertible.swift in Sources */,
+				843CEDE01D251A5E009D568B /* 安全的资源组织方式.swift in Sources */,
 				84D9A1851CC77D28000EFDCA /* SwiftKVO.swift in Sources */,
 				848592821CCA0C6D00C47072 /* ClosureDif.swift in Sources */,
 				8476822C1C7EEE3E0058B0B1 /* Singleton.swift in Sources */,
 				8485927E1CC9BFF200C47072 /* control.swift in Sources */,
+				847575311CED5FF9005869B5 /* AssociatedObject.swift in Sources */,
 				848592691CC8CE2B00C47072 /* enumerate.swift in Sources */,
 				84A9F1071C7D4EC700030008 /* high-orderFunction.swift in Sources */,
 				842AA3A91C76F36F00B3054D /* Currying.swift in Sources */,
